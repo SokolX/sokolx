@@ -9,8 +9,9 @@ html {
 }
 
 body {
-    background: #2C2141;
-    min-height: 100vh;
+    background: #2070C2;
+    height: 100vh;
+    min-width: 500px;
     padding: 16px;
     display: flex;
     align-items: center;
@@ -20,7 +21,7 @@ body {
 }
 
 .card {
-    background: #f8f8f8;
+    background: #E9EBEE;
     border-radius: 15px;
     max-width: 624px;
     width: 100%;
@@ -38,7 +39,7 @@ body {
 }
 
 .person__link {
-    color: #e20613;
+    color: #c22070;
     text-decoration: none;
 }
 
@@ -53,6 +54,10 @@ body {
 }
 
 .person__photo {
+    border-radius: 50%;
+    border: #2070C2 solid 4px;
+    width: 200px;
+    height: 200px;
     margin-right: 32px;
 }
 
@@ -63,6 +68,6 @@ body {
 }
 
 .person__special {
-    color: #ed6d05;
+    color: #c27220;
     font-weight: normal;
 }
