@@ -1,7 +1,3 @@
----
-permalink: /dist/index.html
----
-
 # Simple page with [my bio](https://sokolx.github.io/dist/index.html)
 ![Screen web page](https://sokolx.github.io/src/assets/img/readme_file_example.png)
 
