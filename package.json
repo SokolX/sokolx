@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/maciejkorsan/wtf-gulp-starter/issues"
   },
-  "homepage": "https://github.com/maciejkorsan/wtf-gulp-starter",
+  "homepage": "https://github.com/maciejkorsan/wtf-gulp-starter#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
