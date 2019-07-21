@@ -353,14 +353,24 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start; }
-  .person__person__description {
+  .person__description {
     font-size: 16px;
     line-height: 22px; }
-  .person__person__link {
+    .person__description--last {
+      margin-bottom: 0; }
+  .person__link {
     color: #c22070;
-    text-decoration: none; }
-  .person__description--last {
-    margin-bottom: 0; }
+    text-decoration: none;
+    -webkit-transition: color .10s linear, -webkit-transform .5s ease-in;
+    transition: color .10s linear, -webkit-transform .5s ease-in;
+    -o-transition: color .10s linear, transform .5s ease-in;
+    transition: color .10s linear, transform .5s ease-in;
+    transition: color .10s linear, transform .5s ease-in, -webkit-transform .5s ease-in; }
+    .person__link:hover {
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      color: #2070C2; }
   .person__name {
     margin: 0;
     font-size: 36px;

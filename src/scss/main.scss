@@ -44,18 +44,23 @@ body {
   display: flex;
   align-items: flex-start;
 
-  &__person__description {
+  &__description {
     font-size: 16px;
     line-height: 22px;
+
+    &--last {
+      margin-bottom: 0;
+    }
   }
 
-  &__person__link {
+  &__link {
     color: #c22070;
     text-decoration: none;
-  }
-
-  &__description--last {
-    margin-bottom: 0;
+    transition: color .10s linear, transform .5s ease-in;
+    &:hover {
+      transform: rotate(45deg);
+      color: #2070C2;      
+    }
   }
 
   &__name {
