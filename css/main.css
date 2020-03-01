@@ -316,7 +316,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #2070C2;
+  background: #006700;
   height: 100vh;
   min-width: 500px;
   padding: 16px;
@@ -337,7 +337,7 @@ body {
       height: 75vh; } }
 
 .card {
-  background: #E9EBEE;
+  background: #CBD2D9;
   border-radius: 15px;
   max-width: 624px;
   width: 100%;
@@ -353,14 +353,24 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start; }
-  .person__person__description {
+  .person__description {
     font-size: 16px;
     line-height: 22px; }
-  .person__person__link {
-    color: #c22070;
-    text-decoration: none; }
-  .person__description--last {
-    margin-bottom: 0; }
+    .person__description--last {
+      margin-bottom: 0; }
+  .person__link {
+    color: #670067;
+    text-decoration: none;
+    -webkit-transition: color .10s linear, -webkit-transform .5s ease-in;
+    transition: color .10s linear, -webkit-transform .5s ease-in;
+    -o-transition: color .10s linear, transform .5s ease-in;
+    transition: color .10s linear, transform .5s ease-in;
+    transition: color .10s linear, transform .5s ease-in, -webkit-transform .5s ease-in; }
+    .person__link:hover {
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      color: #006700; }
   .person__name {
     margin: 0;
     font-size: 36px;
@@ -370,9 +380,9 @@ body {
         font-size: 24px; } }
   .person__photo {
     border-radius: 50%;
-    border: #2070C2 solid 4px;
-    width: 200px;
-    height: 200px;
+    border: #c27220 solid 4px;
+    width: 150px;
+    height: 150px;
     margin-right: 32px; }
     @media (max-width: 640px) {
       .person__photo {
