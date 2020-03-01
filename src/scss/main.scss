@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #2070C2;
+  background: $green;
   height: 100vh;
   min-width: 500px;
   padding: 16px;
@@ -29,7 +29,7 @@ body {
 }
 
 .card {
-  background: #E9EBEE;
+  background: $grey;
   border-radius: 15px;
   max-width: 624px;
   width: 100%;
@@ -54,12 +54,12 @@ body {
   }
 
   &__link {
-    color: #c22070;
+    color: $violet;
     text-decoration: none;
     transition: color .10s linear, transform .5s ease-in;
     &:hover {
       transform: rotate(45deg);
-      color: #2070C2;      
+      color: $green;      
     }
   }
 
@@ -75,9 +75,9 @@ body {
 
   &__photo {
     border-radius: 50%;
-    border: #2070C2 solid 4px;
-    width: 200px;
-    height: 200px;
+    border: $orange solid 4px;
+    width: 150px;
+    height: 150px;
     margin-right: 32px;
   
     @media (max-width: $telephone) {
@@ -94,7 +94,7 @@ body {
   }
 
   &__special {
-    color: #c27220;
+    color: $orange;
     font-weight: bold;
   }
   
